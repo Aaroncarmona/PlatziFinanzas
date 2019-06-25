@@ -1,0 +1,830 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6BA76AB22B8818D00F2605F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BA76AA22B8818D00F2605F /* AppDelegate.swift */; };
+		E6BA76B222B8818E00F2605F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6BA76B122B8818E00F2605F /* Assets.xcassets */; };
+		E6BA76B522B8818E00F2605F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6BA76B322B8818E00F2605F /* LaunchScreen.storyboard */; };
+		E6BA76C022B8818F00F2605F /* PlatziFinanzasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BA76BF22B8818F00F2605F /* PlatziFinanzasTests.swift */; };
+		E6BA76CB22B8818F00F2605F /* PlatziFinanzasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BA76CA22B8818F00F2605F /* PlatziFinanzasUITests.swift */; };
+		E6BA76DB22B88B9300F2605F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BA76AA22B8818D00F2605F /* AppDelegate.swift */; };
+		E6BA76DE22B88B9300F2605F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6BA76B322B8818E00F2605F /* LaunchScreen.storyboard */; };
+		E6BA76DF22B88B9300F2605F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6BA76B122B8818E00F2605F /* Assets.xcassets */; };
+		E6BA76E822B88C1B00F2605F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6BA76E722B88C1B00F2605F /* MapKit.framework */; };
+		E6BFD18D22C1D4CF00934247 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6BFD18C22C1D4CF00934247 /* Main.storyboard */; };
+		E6BFD18F22C1D5BE00934247 /* Add.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6BFD18E22C1D5BE00934247 /* Add.storyboard */; };
+		E6BFD19022C1D5BE00934247 /* Add.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6BFD18E22C1D5BE00934247 /* Add.storyboard */; };
+		E6BFD19222C1D62A00934247 /* Transactions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6BFD19122C1D62A00934247 /* Transactions.storyboard */; };
+		E6BFD19322C1D62A00934247 /* Transactions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6BFD19122C1D62A00934247 /* Transactions.storyboard */; };
+		E6BFD19522C1D6DC00934247 /* Budget.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6BFD19422C1D6DC00934247 /* Budget.storyboard */; };
+		E6BFD19622C1D6DC00934247 /* Budget.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6BFD19422C1D6DC00934247 /* Budget.storyboard */; };
+		E6BFD19822C1D73B00934247 /* Statictics.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6BFD19722C1D73B00934247 /* Statictics.storyboard */; };
+		E6BFD19922C1D73B00934247 /* Statictics.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6BFD19722C1D73B00934247 /* Statictics.storyboard */; };
+		E6BFD19C22C1D7EE00934247 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6BFD19B22C1D7EE00934247 /* Profile.storyboard */; };
+		E6BFD19D22C1D7EE00934247 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6BFD19B22C1D7EE00934247 /* Profile.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6BA76BC22B8818F00F2605F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6BA769F22B8818D00F2605F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6BA76A622B8818D00F2605F;
+			remoteInfo = PlatziFinanzas;
+		};
+		E6BA76C722B8818F00F2605F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6BA769F22B8818D00F2605F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6BA76A622B8818D00F2605F;
+			remoteInfo = PlatziFinanzas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E6BA76A722B8818D00F2605F /* PlatziFinanzas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlatziFinanzas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6BA76AA22B8818D00F2605F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E6BA76B122B8818E00F2605F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6BA76B422B8818E00F2605F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E6BA76B622B8818E00F2605F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6BA76BB22B8818F00F2605F /* PlatziFinanzasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlatziFinanzasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6BA76BF22B8818F00F2605F /* PlatziFinanzasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatziFinanzasTests.swift; sourceTree = "<group>"; };
+		E6BA76C122B8818F00F2605F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6BA76C622B8818F00F2605F /* PlatziFinanzasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlatziFinanzasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6BA76CA22B8818F00F2605F /* PlatziFinanzasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatziFinanzasUITests.swift; sourceTree = "<group>"; };
+		E6BA76CC22B8818F00F2605F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6BA76E422B88B9300F2605F /* Production.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Production.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6BA76E522B88B9300F2605F /* PlatziFinanzas copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "PlatziFinanzas copy-Info.plist"; path = "/Users/aaroncarmona/Desktop/pro/ios/PlatziFinanzas/PlatziFinanzas copy-Info.plist"; sourceTree = "<absolute>"; };
+		E6BA76E722B88C1B00F2605F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E6BFD18C22C1D4CF00934247 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E6BFD18E22C1D5BE00934247 /* Add.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Add.storyboard; sourceTree = "<group>"; };
+		E6BFD19122C1D62A00934247 /* Transactions.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Transactions.storyboard; sourceTree = "<group>"; };
+		E6BFD19422C1D6DC00934247 /* Budget.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Budget.storyboard; sourceTree = "<group>"; };
+		E6BFD19722C1D73B00934247 /* Statictics.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Statictics.storyboard; sourceTree = "<group>"; };
+		E6BFD19B22C1D7EE00934247 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6BA76A422B8818D00F2605F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6BA76B822B8818F00F2605F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6BA76C322B8818F00F2605F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6BA76DC22B88B9300F2605F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6BA76E822B88C1B00F2605F /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6B7C71322C09303004CD78D /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				E6BFD19122C1D62A00934247 /* Transactions.storyboard */,
+			);
+			path = Transactions;
+			sourceTree = "<group>";
+		};
+		E6B7C71622C09418004CD78D /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				E6BFD18E22C1D5BE00934247 /* Add.storyboard */,
+			);
+			path = Add;
+			sourceTree = "<group>";
+		};
+		E6B7C71D22C09597004CD78D /* Budget */ = {
+			isa = PBXGroup;
+			children = (
+				E6BFD19422C1D6DC00934247 /* Budget.storyboard */,
+			);
+			path = Budget;
+			sourceTree = "<group>";
+		};
+		E6BA769E22B8818D00F2605F = {
+			isa = PBXGroup;
+			children = (
+				E6BA76A922B8818D00F2605F /* PlatziFinanzas */,
+				E6BA76BE22B8818F00F2605F /* PlatziFinanzasTests */,
+				E6BA76C922B8818F00F2605F /* PlatziFinanzasUITests */,
+				E6BA76A822B8818D00F2605F /* Products */,
+				E6BA76E522B88B9300F2605F /* PlatziFinanzas copy-Info.plist */,
+				E6BA76E622B88C1B00F2605F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E6BA76A822B8818D00F2605F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6BA76A722B8818D00F2605F /* PlatziFinanzas.app */,
+				E6BA76BB22B8818F00F2605F /* PlatziFinanzasTests.xctest */,
+				E6BA76C622B8818F00F2605F /* PlatziFinanzasUITests.xctest */,
+				E6BA76E422B88B9300F2605F /* Production.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6BA76A922B8818D00F2605F /* PlatziFinanzas */ = {
+			isa = PBXGroup;
+			children = (
+				E6E544E122B9F63F00B2A87F /* Resources */,
+				E6E544E022B9F61000B2A87F /* Base */,
+				E6E544DF22B9F5FB00B2A87F /* Application */,
+				E6BA76B622B8818E00F2605F /* Info.plist */,
+			);
+			path = PlatziFinanzas;
+			sourceTree = "<group>";
+		};
+		E6BA76BE22B8818F00F2605F /* PlatziFinanzasTests */ = {
+			isa = PBXGroup;
+			children = (
+				E6BA76BF22B8818F00F2605F /* PlatziFinanzasTests.swift */,
+				E6BA76C122B8818F00F2605F /* Info.plist */,
+			);
+			path = PlatziFinanzasTests;
+			sourceTree = "<group>";
+		};
+		E6BA76C922B8818F00F2605F /* PlatziFinanzasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E6BA76CA22B8818F00F2605F /* PlatziFinanzasUITests.swift */,
+				E6BA76CC22B8818F00F2605F /* Info.plist */,
+			);
+			path = PlatziFinanzasUITests;
+			sourceTree = "<group>";
+		};
+		E6BA76E622B88C1B00F2605F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6BA76E722B88C1B00F2605F /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6BFD19A22C1D74A00934247 /* Statictics */ = {
+			isa = PBXGroup;
+			children = (
+				E6BFD19722C1D73B00934247 /* Statictics.storyboard */,
+			);
+			path = Statictics;
+			sourceTree = "<group>";
+		};
+		E6BFD19E22C1D81500934247 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				E6BFD19B22C1D7EE00934247 /* Profile.storyboard */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		E6E544DF22B9F5FB00B2A87F /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				E6E544E322B9F74600B2A87F /* Main */,
+				E6E544E222B9F64F00B2A87F /* Authentication */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		E6E544E022B9F61000B2A87F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				E6BA76B322B8818E00F2605F /* LaunchScreen.storyboard */,
+				E6BA76AA22B8818D00F2605F /* AppDelegate.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		E6E544E122B9F63F00B2A87F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E6BA76B122B8818E00F2605F /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E6E544E222B9F64F00B2A87F /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				E6E544E522B9F76300B2A87F /* SignIn */,
+				E6E544E422B9F75300B2A87F /* OnBoarding */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		E6E544E322B9F74600B2A87F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E6BFD19E22C1D81500934247 /* Profile */,
+				E6BFD19A22C1D74A00934247 /* Statictics */,
+				E6B7C71D22C09597004CD78D /* Budget */,
+				E6B7C71622C09418004CD78D /* Add */,
+				E6B7C71322C09303004CD78D /* Transactions */,
+				E6E544E822B9F78F00B2A87F /* Main */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E6E544E422B9F75300B2A87F /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		E6E544E522B9F76300B2A87F /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		E6E544E822B9F78F00B2A87F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E6BFD18C22C1D4CF00934247 /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6BA76A622B8818D00F2605F /* PlatziFinanzas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6BA76CF22B8818F00F2605F /* Build configuration list for PBXNativeTarget "PlatziFinanzas" */;
+			buildPhases = (
+				E6BA76A322B8818D00F2605F /* Sources */,
+				E6BA76A422B8818D00F2605F /* Frameworks */,
+				E6BA76A522B8818D00F2605F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlatziFinanzas;
+			productName = PlatziFinanzas;
+			productReference = E6BA76A722B8818D00F2605F /* PlatziFinanzas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6BA76BA22B8818F00F2605F /* PlatziFinanzasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6BA76D222B8818F00F2605F /* Build configuration list for PBXNativeTarget "PlatziFinanzasTests" */;
+			buildPhases = (
+				E6BA76B722B8818F00F2605F /* Sources */,
+				E6BA76B822B8818F00F2605F /* Frameworks */,
+				E6BA76B922B8818F00F2605F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6BA76BD22B8818F00F2605F /* PBXTargetDependency */,
+			);
+			name = PlatziFinanzasTests;
+			productName = PlatziFinanzasTests;
+			productReference = E6BA76BB22B8818F00F2605F /* PlatziFinanzasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E6BA76C522B8818F00F2605F /* PlatziFinanzasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6BA76D522B8818F00F2605F /* Build configuration list for PBXNativeTarget "PlatziFinanzasUITests" */;
+			buildPhases = (
+				E6BA76C222B8818F00F2605F /* Sources */,
+				E6BA76C322B8818F00F2605F /* Frameworks */,
+				E6BA76C422B8818F00F2605F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6BA76C822B8818F00F2605F /* PBXTargetDependency */,
+			);
+			name = PlatziFinanzasUITests;
+			productName = PlatziFinanzasUITests;
+			productReference = E6BA76C622B8818F00F2605F /* PlatziFinanzasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		E6BA76D822B88B9300F2605F /* Production */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6BA76E122B88B9300F2605F /* Build configuration list for PBXNativeTarget "Production" */;
+			buildPhases = (
+				E6BA76D922B88B9300F2605F /* Sources */,
+				E6BA76DC22B88B9300F2605F /* Frameworks */,
+				E6BA76DD22B88B9300F2605F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Production;
+			productName = PlatziFinanzas;
+			productReference = E6BA76E422B88B9300F2605F /* Production.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6BA769F22B8818D00F2605F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = aaroncarmona;
+				TargetAttributes = {
+					E6BA76A622B8818D00F2605F = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					E6BA76BA22B8818F00F2605F = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = E6BA76A622B8818D00F2605F;
+					};
+					E6BA76C522B8818F00F2605F = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = E6BA76A622B8818D00F2605F;
+					};
+					E6BA76D822B88B9300F2605F = {
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = E6BA76A222B8818D00F2605F /* Build configuration list for PBXProject "PlatziFinanzas" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6BA769E22B8818D00F2605F;
+			productRefGroup = E6BA76A822B8818D00F2605F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6BA76A622B8818D00F2605F /* PlatziFinanzas */,
+				E6BA76BA22B8818F00F2605F /* PlatziFinanzasTests */,
+				E6BA76C522B8818F00F2605F /* PlatziFinanzasUITests */,
+				E6BA76D822B88B9300F2605F /* Production */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6BA76A522B8818D00F2605F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6BFD19522C1D6DC00934247 /* Budget.storyboard in Resources */,
+				E6BFD19822C1D73B00934247 /* Statictics.storyboard in Resources */,
+				E6BA76B522B8818E00F2605F /* LaunchScreen.storyboard in Resources */,
+				E6BFD18F22C1D5BE00934247 /* Add.storyboard in Resources */,
+				E6BA76B222B8818E00F2605F /* Assets.xcassets in Resources */,
+				E6BFD19C22C1D7EE00934247 /* Profile.storyboard in Resources */,
+				E6BFD19222C1D62A00934247 /* Transactions.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6BA76B922B8818F00F2605F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6BA76C422B8818F00F2605F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6BA76DD22B88B9300F2605F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6BFD18D22C1D4CF00934247 /* Main.storyboard in Resources */,
+				E6BA76DE22B88B9300F2605F /* LaunchScreen.storyboard in Resources */,
+				E6BFD19D22C1D7EE00934247 /* Profile.storyboard in Resources */,
+				E6BFD19022C1D5BE00934247 /* Add.storyboard in Resources */,
+				E6BA76DF22B88B9300F2605F /* Assets.xcassets in Resources */,
+				E6BFD19922C1D73B00934247 /* Statictics.storyboard in Resources */,
+				E6BFD19322C1D62A00934247 /* Transactions.storyboard in Resources */,
+				E6BFD19622C1D6DC00934247 /* Budget.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6BA76A322B8818D00F2605F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6BA76AB22B8818D00F2605F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6BA76B722B8818F00F2605F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6BA76C022B8818F00F2605F /* PlatziFinanzasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6BA76C222B8818F00F2605F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6BA76CB22B8818F00F2605F /* PlatziFinanzasUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6BA76D922B88B9300F2605F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6BA76DB22B88B9300F2605F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6BA76BD22B8818F00F2605F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6BA76A622B8818D00F2605F /* PlatziFinanzas */;
+			targetProxy = E6BA76BC22B8818F00F2605F /* PBXContainerItemProxy */;
+		};
+		E6BA76C822B8818F00F2605F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6BA76A622B8818D00F2605F /* PlatziFinanzas */;
+			targetProxy = E6BA76C722B8818F00F2605F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E6BA76B322B8818E00F2605F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6BA76B422B8818E00F2605F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6BA76CD22B8818F00F2605F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E6BA76CE22B8818F00F2605F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6BA76D022B8818F00F2605F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ML69D4ZPAL;
+				INFOPLIST_FILE = PlatziFinanzas/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.platzi.PlatziFinanzas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E6BA76D122B8818F00F2605F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ML69D4ZPAL;
+				INFOPLIST_FILE = PlatziFinanzas/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.platzi.PlatziFinanzas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E6BA76D322B8818F00F2605F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ML69D4ZPAL;
+				INFOPLIST_FILE = PlatziFinanzasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.platzi.PlatziFinanzasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlatziFinanzas.app/PlatziFinanzas";
+			};
+			name = Debug;
+		};
+		E6BA76D422B8818F00F2605F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ML69D4ZPAL;
+				INFOPLIST_FILE = PlatziFinanzasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.platzi.PlatziFinanzasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlatziFinanzas.app/PlatziFinanzas";
+			};
+			name = Release;
+		};
+		E6BA76D622B8818F00F2605F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ML69D4ZPAL;
+				INFOPLIST_FILE = PlatziFinanzasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.platzi.PlatziFinanzasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlatziFinanzas;
+			};
+			name = Debug;
+		};
+		E6BA76D722B8818F00F2605F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ML69D4ZPAL;
+				INFOPLIST_FILE = PlatziFinanzasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.platzi.PlatziFinanzasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlatziFinanzas;
+			};
+			name = Release;
+		};
+		E6BA76E222B88B9300F2605F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ML69D4ZPAL;
+				INFOPLIST_FILE = "PlatziFinanzas copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.PlatziFinanzas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E6BA76E322B88B9300F2605F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ML69D4ZPAL;
+				INFOPLIST_FILE = "PlatziFinanzas copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.PlatziFinanzas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6BA76A222B8818D00F2605F /* Build configuration list for PBXProject "PlatziFinanzas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6BA76CD22B8818F00F2605F /* Debug */,
+				E6BA76CE22B8818F00F2605F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6BA76CF22B8818F00F2605F /* Build configuration list for PBXNativeTarget "PlatziFinanzas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6BA76D022B8818F00F2605F /* Debug */,
+				E6BA76D122B8818F00F2605F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6BA76D222B8818F00F2605F /* Build configuration list for PBXNativeTarget "PlatziFinanzasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6BA76D322B8818F00F2605F /* Debug */,
+				E6BA76D422B8818F00F2605F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6BA76D522B8818F00F2605F /* Build configuration list for PBXNativeTarget "PlatziFinanzasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6BA76D622B8818F00F2605F /* Debug */,
+				E6BA76D722B8818F00F2605F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6BA76E122B88B9300F2605F /* Build configuration list for PBXNativeTarget "Production" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6BA76E222B88B9300F2605F /* Debug */,
+				E6BA76E322B88B9300F2605F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6BA769F22B8818D00F2605F /* Project object */;
+}
