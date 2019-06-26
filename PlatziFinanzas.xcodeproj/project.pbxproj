@@ -27,6 +27,8 @@
 		E6BFD19922C1D73B00934247 /* Statictics.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6BFD19722C1D73B00934247 /* Statictics.storyboard */; };
 		E6BFD19C22C1D7EE00934247 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6BFD19B22C1D7EE00934247 /* Profile.storyboard */; };
 		E6BFD19D22C1D7EE00934247 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6BFD19B22C1D7EE00934247 /* Profile.storyboard */; };
+		E6FE0E6E22C32EF800A33DDD /* Signln.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6FE0E6D22C32EF800A33DDD /* Signln.storyboard */; };
+		E6FE0E6F22C32EF800A33DDD /* Signln.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6FE0E6D22C32EF800A33DDD /* Signln.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,7 @@
 		E6BFD19422C1D6DC00934247 /* Budget.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Budget.storyboard; sourceTree = "<group>"; };
 		E6BFD19722C1D73B00934247 /* Statictics.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Statictics.storyboard; sourceTree = "<group>"; };
 		E6BFD19B22C1D7EE00934247 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		E6FE0E6D22C32EF800A33DDD /* Signln.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Signln.storyboard; path = SignIn/Signln.storyboard; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -260,6 +263,7 @@
 		E6E544E522B9F76300B2A87F /* SignIn */ = {
 			isa = PBXGroup;
 			children = (
+				E6FE0E6D22C32EF800A33DDD /* Signln.storyboard */,
 			);
 			path = SignIn;
 			sourceTree = "<group>";
@@ -404,6 +408,7 @@
 				E6BFD19522C1D6DC00934247 /* Budget.storyboard in Resources */,
 				E6BFD19822C1D73B00934247 /* Statictics.storyboard in Resources */,
 				E6BA76B522B8818E00F2605F /* LaunchScreen.storyboard in Resources */,
+				E6FE0E6E22C32EF800A33DDD /* Signln.storyboard in Resources */,
 				E6BFD18F22C1D5BE00934247 /* Add.storyboard in Resources */,
 				E6BA76B222B8818E00F2605F /* Assets.xcassets in Resources */,
 				E6BFD19C22C1D7EE00934247 /* Profile.storyboard in Resources */,
@@ -433,6 +438,7 @@
 				E6BA76DE22B88B9300F2605F /* LaunchScreen.storyboard in Resources */,
 				E6BFD19D22C1D7EE00934247 /* Profile.storyboard in Resources */,
 				E6BFD19022C1D5BE00934247 /* Add.storyboard in Resources */,
+				E6FE0E6F22C32EF800A33DDD /* Signln.storyboard in Resources */,
 				E6BA76DF22B88B9300F2605F /* Assets.xcassets in Resources */,
 				E6BFD19922C1D73B00934247 /* Statictics.storyboard in Resources */,
 				E6BFD19322C1D62A00934247 /* Transactions.storyboard in Resources */,
