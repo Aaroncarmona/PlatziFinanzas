@@ -27,6 +27,8 @@
 		E6BFD19922C1D73B00934247 /* Statictics.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6BFD19722C1D73B00934247 /* Statictics.storyboard */; };
 		E6BFD19C22C1D7EE00934247 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6BFD19B22C1D7EE00934247 /* Profile.storyboard */; };
 		E6BFD19D22C1D7EE00934247 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6BFD19B22C1D7EE00934247 /* Profile.storyboard */; };
+		E6EC0D7322C70FDB007EC1C5 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6EC0D7222C70FDB007EC1C5 /* Colors.xcassets */; };
+		E6EC0D7422C70FDB007EC1C5 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6EC0D7222C70FDB007EC1C5 /* Colors.xcassets */; };
 		E6FE0E6E22C32EF800A33DDD /* Signln.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6FE0E6D22C32EF800A33DDD /* Signln.storyboard */; };
 		E6FE0E6F22C32EF800A33DDD /* Signln.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6FE0E6D22C32EF800A33DDD /* Signln.storyboard */; };
 /* End PBXBuildFile section */
@@ -69,6 +71,7 @@
 		E6BFD19422C1D6DC00934247 /* Budget.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Budget.storyboard; sourceTree = "<group>"; };
 		E6BFD19722C1D73B00934247 /* Statictics.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Statictics.storyboard; sourceTree = "<group>"; };
 		E6BFD19B22C1D7EE00934247 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		E6EC0D7222C70FDB007EC1C5 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		E6FE0E6D22C32EF800A33DDD /* Signln.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Signln.storyboard; path = SignIn/Signln.storyboard; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -226,7 +229,8 @@
 		E6E544E122B9F63F00B2A87F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E6BA76B122B8818E00F2605F /* Assets.xcassets */,
+				E6EC0D6E22C70F27007EC1C5 /* Colors */,
+				E6EC0D6D22C70F19007EC1C5 /* Imagenes */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -274,6 +278,22 @@
 				E6BFD18C22C1D4CF00934247 /* Main.storyboard */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		E6EC0D6D22C70F19007EC1C5 /* Imagenes */ = {
+			isa = PBXGroup;
+			children = (
+				E6BA76B122B8818E00F2605F /* Assets.xcassets */,
+			);
+			path = Imagenes;
+			sourceTree = "<group>";
+		};
+		E6EC0D6E22C70F27007EC1C5 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				E6EC0D7222C70FDB007EC1C5 /* Colors.xcassets */,
+			);
+			path = Colors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -405,6 +425,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6EC0D7322C70FDB007EC1C5 /* Colors.xcassets in Resources */,
 				E6BFD19522C1D6DC00934247 /* Budget.storyboard in Resources */,
 				E6BFD19822C1D73B00934247 /* Statictics.storyboard in Resources */,
 				E6BA76B522B8818E00F2605F /* LaunchScreen.storyboard in Resources */,
@@ -439,6 +460,7 @@
 				E6BFD19D22C1D7EE00934247 /* Profile.storyboard in Resources */,
 				E6BFD19022C1D5BE00934247 /* Add.storyboard in Resources */,
 				E6FE0E6F22C32EF800A33DDD /* Signln.storyboard in Resources */,
+				E6EC0D7422C70FDB007EC1C5 /* Colors.xcassets in Resources */,
 				E6BA76DF22B88B9300F2605F /* Assets.xcassets in Resources */,
 				E6BFD19922C1D73B00934247 /* Statictics.storyboard in Resources */,
 				E6BFD19322C1D62A00934247 /* Transactions.storyboard in Resources */,
