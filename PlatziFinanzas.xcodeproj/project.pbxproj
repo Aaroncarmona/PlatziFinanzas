@@ -108,6 +108,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E66F477922C96F4C006C63A8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		E6B7C71322C09303004CD78D /* Transactions */ = {
 			isa = PBXGroup;
 			children = (
@@ -158,6 +165,7 @@
 		E6BA76A922B8818D00F2605F /* PlatziFinanzas */ = {
 			isa = PBXGroup;
 			children = (
+				E66F477922C96F4C006C63A8 /* Extensions */,
 				E6E544E122B9F63F00B2A87F /* Resources */,
 				E6E544E022B9F61000B2A87F /* Base */,
 				E6E544DF22B9F5FB00B2A87F /* Application */,
