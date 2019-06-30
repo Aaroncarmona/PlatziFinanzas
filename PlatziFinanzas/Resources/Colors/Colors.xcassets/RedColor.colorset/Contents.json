@@ -7,7 +7,13 @@
     {
       "idiom" : "universal",
       "color" : {
-        "reference" : "systemRedColor"
+        "color-space" : "srgb",
+        "components" : {
+          "red" : "255",
+          "alpha" : "1.000",
+          "blue" : "0",
+          "green" : "0"
+        }
       }
     }
   ]
